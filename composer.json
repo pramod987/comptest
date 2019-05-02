@@ -1,5 +1,5 @@
 {
-    "name": "tryout/customcatalog",
+    "name": "bluethink/comptest",
     "description": "",
     "license": "proprietary",
     "require": {
@@ -26,14 +26,12 @@
             "name": "Mage2Gen"
         }
     ],
-    "minimum-stability": "dev",
-    "require": {},
     "autoload": {
         "files": [
             "registration.php"
         ],
         "psr-4": {
-            "Tryout\\CustomCatalog\\": ""
+            "Bluethink\\Comptest\\": ""
         }
     }
 }
